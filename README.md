@@ -1,17 +1,14 @@
 # React App with SpaceX Data
 
-## Available Scripts
 
-In the project directory, you can run:
 
 # DEMO VIDEO
 
-
-
-
 https://github.com/saishchaskar/SaishChaskar-Frontend-Developer/assets/102912746/13a30b3a-2fd6-4d8a-a0d8-c24c7044fbe6
 
+## Available Scripts
 
+In the project directory, you can run:
 
 
 
