@@ -1,0 +1,60 @@
+/* Add this CSS to your stylesheet or create a new one */
+
+/* Custom styles for the carousel */
+.container-fluid {
+    margin-top: 20px;
+  }
+  
+  .carousel {
+    width: 80%; /* Adjust the width as needed */
+    margin: auto;
+  }
+  
+  .carousel-inner {
+    position: relative;
+  }
+  
+  .carousel-item {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* Adjust transition properties as needed */
+  }
+  
+  .carousel-item.active {
+    opacity: 1;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Optional: Adjust caption styles */
+  .carousel-caption h5 {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  /* Optional: Adjust carousel indicators styles */
+  .carousel-indicators {
+    margin-bottom: 10px;
+  }
+  
+  .carousel-indicators button {
+    background-color: #fff;
+    border: 1px solid #fff;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #000;
+  }
+  
