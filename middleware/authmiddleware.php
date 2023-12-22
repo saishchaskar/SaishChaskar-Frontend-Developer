@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
-    header("Access-Control-Allow-Origin:http://localhost:3002/");
+    header("Access-Control-Allow-Origin: http://localhost:3002/");
     header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Custom-Token");
     header("Access-Control-Allow-Methods: GET, OPTIONS");
     http_response_code(200); // Respond with HTTP 200 status for OPTIONS requests
