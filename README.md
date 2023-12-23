@@ -6,12 +6,12 @@
 
 https://github.com/saishchaskar/SaishChaskar-Frontend-Developer/assets/102912746/13a30b3a-2fd6-4d8a-a0d8-c24c7044fbe6
 
-Download the Code 
-unzip the folder
-open the folder in VS Code
-Install Packages using npm install
-Run Server in middleware directory using command index.js
-Start the application using command npm start 
+Download the Code .\  
+unzip the folder.\
+open the folder in VS Code.\
+Install Packages using npm install.\
+Run Server in middleware directory using command index.js.\
+Start the application using command npm start .\
 
 ## Available Scripts
 
