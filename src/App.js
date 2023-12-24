@@ -16,7 +16,7 @@ function App() {
     try {
       const customToken = '12345678w';
       const headers = { 'Authorization': customToken };
-      const { data } = await axios.get("http://localhost:3001/auth", { headers });
+      const { data } = await axios.post("https://funny-pink-elk.cyclic.app/auth", {}, { headers });
       setCapsuleData(data);
     } catch (error) {
       console.error("Error fetching data:", error);
