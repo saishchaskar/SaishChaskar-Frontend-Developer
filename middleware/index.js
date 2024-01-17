@@ -4,10 +4,10 @@ const express = require('express');
 const axios = require('axios');
 
 const app = express();
-const port = 3001; // Choose a port for your Node.js server
+const port = 3001; // Choose a port for  Node.js server
 app.use(cors())
 app.use(express.json());
-// Your custom authentication token
+
 const customToken = '12345678w';
 
 // Middleware for token authentication
@@ -17,9 +17,6 @@ app.use(("/auth"), (req, res, next) => {
   // Check if the provided token matches the expected custom token
   if (userToken == customToken || userToken == `Bearer ${customToken}`) {
     // Token is valid, forward the request to the SpaceX API
-
-    // Extract the URL from the request
-    const url = req.query.url;
 
     // Build the full URL for the SpaceX API
     const spaceXApiUrl = `https://api.spacexdata.com/v3/capsules`;

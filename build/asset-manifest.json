@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/SaishChaskar-Frontend-Developer/static/css/main.9d91e89c.css",
-    "main.js": "/SaishChaskar-Frontend-Developer/static/js/main.16f7edcf.js",
+    "main.css": "/SaishChaskar-Frontend-Developer/static/css/main.84683726.css",
+    "main.js": "/SaishChaskar-Frontend-Developer/static/js/main.f16407df.js",
     "static/media/11.jpg": "/SaishChaskar-Frontend-Developer/static/media/11.9890db47d89165bc6e57.jpg",
     "static/media/image3.jpg": "/SaishChaskar-Frontend-Developer/static/media/image3.1a2ab8751bce2a9d716e.jpg",
     "static/media/image1.jpg": "/SaishChaskar-Frontend-Developer/static/media/image1.6bbeff8863772f6cc09e.jpg",
     "static/media/image2.jpg": "/SaishChaskar-Frontend-Developer/static/media/image2.ed64d990710d12b7ac5c.jpg",
     "index.html": "/SaishChaskar-Frontend-Developer/index.html",
-    "main.9d91e89c.css.map": "/SaishChaskar-Frontend-Developer/static/css/main.9d91e89c.css.map",
-    "main.16f7edcf.js.map": "/SaishChaskar-Frontend-Developer/static/js/main.16f7edcf.js.map"
+    "main.84683726.css.map": "/SaishChaskar-Frontend-Developer/static/css/main.84683726.css.map",
+    "main.f16407df.js.map": "/SaishChaskar-Frontend-Developer/static/js/main.f16407df.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d91e89c.css",
-    "static/js/main.16f7edcf.js"
+    "static/css/main.84683726.css",
+    "static/js/main.f16407df.js"
   ]
 }

@@ -29,7 +29,7 @@ export default function DataLayout() {
 
   return (
     <div className="m-6 p-6 bg-transparent">
-      <div className="flex justify-center">
+      <div className="flex flex-wrap justify-center">
         {chunkedData.map((row, rowIndex) => (
           <div key={rowIndex} className="flex flex-col items-center space-y-4">
             {row.map((data, index) => (
