@@ -1,0 +1,21 @@
+runtime: nodejs14
+
+handlers:
+  # Serve static files from the 'build' directory.
+- url: /static
+  static_dir: build/static
+
+  # Handle requests to '/' by serving the index.html file.
+- url: /.*
+  static_files: build/index.html
+  upload: build/index.html
+
+  # Handle requests to the Node.js server.
+- url: /.*
+  script: auto
+  secure: always
+
+env_variables:
+  # Add any environment variables your Node.js server needs here.
+  NODE_ENV: 'production'
+  # Additional environment variables, if necessary.
